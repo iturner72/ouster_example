@@ -54,3 +54,6 @@
       in another terminal
     - To view lidar intensity/noise/range images, add `image:=true` to either of
       the `roslaunch` commands above
+* To play the provided sample data
+    - Run `roslaunch ouster_ros os1.launch replay:=true viz:=true image:=true
+    lidar_mode:=2048x10
