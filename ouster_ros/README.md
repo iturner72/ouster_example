@@ -3,7 +3,7 @@
 ## Contents
 * `ouster_ros/` contains sample code for publishing OS-1 data as standard ROS
   topics
-* Tested with ROS Kinetic on Ubuntu 16.04
+* Tested with ROS Melodic on Ubuntu 18.04
 
 ## Building the Sample ROS Node
 * Supports Ubuntu 18.04 with ROS Kinetic (for ouster_ros)
