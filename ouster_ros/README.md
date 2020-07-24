@@ -6,15 +6,15 @@
 * Tested with ROS Kinetic on Ubuntu 16.04
 
 ## Building the Sample ROS Node
-* Supports Ubuntu 16.04 with ROS Kinetic (for ouster_ros)
+* Supports Ubuntu 18.04 with ROS Kinetic (for ouster_ros)
 * ROS installation instructions can be found
-  [here](http://wiki.ros.org/kinetic/Installation/Ubuntu)
-* Additionally requires `ros-kinetic-pcl-ros`, `ros-kinetic-tf2-geometry-msgs`
-  and, optionally, `ros-kinetic-rviz` for visualization using ROS
+  [here](http://wiki.ros.org/melodic/Installation/Ubuntu)
+* Additionally requires `ros-melodic-pcl-ros`, `ros-melodic-tf2-geometry-msgs`
+  and, optionally, `ros-melodic-rviz` for visualization using ROS
 * Be sure to source the ROS setup script before building. For example:`source
-  /opt/ros/kinetic/setup.bash`
+  /opt/ros/melodic/setup.bash`
 * Build with `mkdir -p myworkspace/src && cd myworkspace && ln -s
-  /path/to/ouster_example ./src/ && catkin_make -DCMAKE_BUILD_TYPE=Release`
+  /path/to/ouster_example ./src/ && catkin build`
 
 ## Running the Sample ROS Nodes
 * Make sure to set up the ROS environment with `source
