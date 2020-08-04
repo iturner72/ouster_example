@@ -18,3 +18,9 @@ See the `README.md` in each subdirectory for details.
 ## Sample Data
 * Sample sensor output usable with the provided ROS code is available
   [here](https://data.ouster.io/sample-data-1.10)
+
+## OS-1-16 Visualization
+Run the following command to load a Gazebo environment with the example.world
+file. The example.urdf.xacro creates a base box and attacjes the OS-1 above it.
+The launch file is executed by running the command:
+`roslaunch ouster_description os1_world.launch`
