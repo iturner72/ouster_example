@@ -1,4 +1,5 @@
 <?xml version="1.0" ?>
+
 <launch>
   <arg name="paused" default="false"/>
   <arg name="use_sim_time" default="true"/>
@@ -30,6 +31,6 @@
   <!-- RViz -->
   <arg name="rviz" default="true"/>
   <node if="$(arg rviz)" pkg="rviz" type="rviz" name="$(anon rviz)" respawn="false" output="screen" args="-d $(find ouster_description)/rviz/example.rviz" />
- 
+
 
 </launch>
